@@ -28,7 +28,6 @@ requirements:
     - pip
     - {{ pin_compatible('numpy') }}
     - setuptools
-    - m2w64-toolchain # [win]
   run:
     - python
     - {{ pin_compatible('numpy') }}
